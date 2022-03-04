@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>SHOPPABLE</title>
+<link rel="stylesheet" type="text/css" href="drop.css">
+<link rel="shortcut icon" href="images/logo-removebg-preview-removebg-preview.png">
+<style>
+h1{
+color:BLACK;
+font-size:50px;
+position:center;
+}
+h3{
+background-color:pink;font-size:20;
+}
+.tn{
+position:relative;
+top:30px;
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<center><b><h1><img src="images/logo-removebg-preview-removebg-preview.png" class="tn" width="100px" height="100px">SHOPPABLE</H1></b></center>
+    <div class="dropdown">
+  <button class="dropbtn"><a href="MEN.html"><B>MEN</B></a>
+  </button>
+     <div class="dropdown-content">
+      <a href="MINDIANWEAR.html">INDIAN WEAR</a>
+      <a href="MWESTERNWEAR.html">WESTERN WEAR</a>
+	  <a href="MACCESSORIES.html">ACCESSORIES</a>
+	  <a href="MSHOES.html">SHOES</a>
+          </div>
+		</div>		  
+   <div class="dropdown">
+    <button class="dropbtn"><a href="WOMEN.html"><B>WOMEN</B></a>
+     </button>
+    <div class="dropdown-content">
+      <a href="wINDIANWEAR.html">INDIAN WEAR</a>
+      <a href="wWESTERNWEAR.html">WESTERN WEAR</a>
+      <a href="wACCESSORIES.html">ACCESSORIES</a>
+	  <a href="wSHOES.html">SHOES</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn"><a href="beauty1.html"><B>BEAUTY</B></a>
+     </button>
+  </div>
+</div>
+<div style="max-width:100%" class="slideshow">
+  <img class="mySlides" src="images/1.jpg" style="width:100%">
+  <img class="mySlides" src="images/2.jpg" style="width:100%">
+  <img class="mySlides" src="images/3.jpg" style="width:100%">
+<img class="mySlides" src="images/4.jpg" style="width:100%">
+<!--<button type="button" float:right value="Prev" name="previous" onclick="prev()"/>
+<button type="button" value="Next" name="next" onclick="next()"/>-->
+
+</div>
+
+<script>
+var myIndex = 0;
+move();
+
+function move() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(move, 3000); // Change image every 2 seconds
+}
+</script>
+<table>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/M1.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Mens Mesh Lace up Sports Shoes</br>MRP-1149</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/M2.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>ATHLEISURE<br/> Mens Mesh Lace Up Sports Shoes</br>MRP-2309</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/M3.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>PUMA Unisex Lace Up Sports Shoes</br>MRP-2996</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/M4.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>United Colors of Benetton Men Navy Blue& Green Colourblocked Sneakers</br>MRP-1475</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/18.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Nike Men Black & White Flex RN 2018 Running Shoes</br>MRP-3299</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/6.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Grey Street Running Shoes </br>MRP-1950</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/7.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Puma Men Blue Mesh Mid-Top Running Shoes</br>
+MRP-1599</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/8.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Nike Men Black DART 12 </br>MRP-2800</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/9.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Black Sneakers</br>MRP-1815</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/10.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Grey Driftium Running Shoes 
+</br>MRP-3650</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/11.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>ADIDAS Men Blue Solar Glide Running Shoes</br>MRP-4699</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/12.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Core1.0 Running Shoes 
+</br>MRP-1925</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/13.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>ADIDAS Men Grey Sneakers 
+</br>MRP-1887</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/14.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>INVICTUS Men Black Formal Leather Derbys
+</br>MRP-1200</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/15.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Blue Running Shoes 
+</br>MRP-1750</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/16.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>El Paso Men Brown Slip-On Sneakers </b></br>MRP-749</center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/17.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>HRX by Hrithik Roshan Men Grey Synthetic Running Shoes 
+</br>MRP-1399</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/18.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Mast&Harbour Men Grey Sneakers</br>MRP-1037</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/19.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Mast&Harbour Men White Sneakers
+</br>MRP-1250</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/20.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Roadster Men Grey & Charcoal Sneakers </br>MRP-1037</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/10.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>El Paso Men Brown Slip-On Sneakers </b></br>MRP-749</center></h3></td></tr></table></td>
+</tr>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+</body>
+</html>
