@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>SHOPPABLE</title>
+<link rel="stylesheet" type="text/css" href="drop.css">
+<link rel="shortcut icon" href="images/logo-removebg-preview-removebg-preview.png">
+<style>
+h1{
+color:black;
+font-size:50px;
+position:center;
+}
+h3{
+background-color:pink;font-size:20;
+}
+.tn{
+position:relative;
+top:30px;
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <center><b><h1><img src="images/logo-removebg-preview-removebg-preview.png" class="tn" width="100px" height="100px">SHOPPABLE</H1></b></center>
+    <div class="dropdown">
+      <button class="dropbtn"><a href="men.html"><b>MEN</b></a>
+      </button>
+         <div class="dropdown-content">
+          <a href="MINDIANWEAR.html">INDIAN WEAR</a>
+          <a href="MWESTERNWEAR.html">WESTERN WEAR</a>
+        <a href="MACCESSORIES.html">ACCESSORIES</a>
+        <a href="MSHOES.html">SHOES</a>
+              </div>
+        </div>		  
+       <div class="dropdown">
+        <button class="dropbtn"><a href="women.html"><b>WOMEN</b></a>
+         </button>
+        <div class="dropdown-content">
+          <a href="wINDIANWEAR.html">INDIAN WEAR</a>
+          <a href="wWESTERNWEAR.html">WESTERN WEAR</a>
+          <a href="wACCESSORIES.html">ACCESSORIES</a>
+        <a href="wSHOES.html">SHOES</a>
+        </div>
+      </div>   
+  <div class="dropdown">
+    <button class="dropbtn"><a href="beauty1.html"><B>BEAUTY</B></a>
+     </button>
+  </div>
+</div>
+<div style="max-width:100%" class="slideshow">
+  <img class="mySlides" src="Images/1.jpg" style="width:100%">
+  <img class="mySlides" src="images/2.jpg" style="width:100%">
+  <img class="mySlides" src="images/3.jpg" style="width:100%">
+<img class="mySlides" src="images/4.jpg" style="width:100%">
+<!--<button type="button" float:right value="Prev" name="previous" onclick="prev()"/>
+<button type="button" value="Next" name="next" onclick="next()"/>-->
+
+</div>
+
+<script>
+var myIndex = 0;
+move();
+
+function move() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(move, 3000); // Change image every 2 seconds
+}
+</script>
+<table>
+<tr>
+<td>
+<table>
+
+<tr><td><img src="images/wwd1.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Fruit Print Knot Side Wrap Dress<br>MRP-2999</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd2.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>SHEIN Aztec Striped Low Back Bodycon Dress<br>MRP-6999</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd3.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Plus Heart Print V-neck Blouse<br>MRP-5999</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd4.jpg"></td></tr>
+<tr><td height="40"><h3><center><b> Botanical Print Bell Sleeve Bardot Top<br>MRP-7899</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd5.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Plus Deep V-neck Striped Dress<br>MRP-8979</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd6.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>SHEIN Ditsy Floral Self Tie Shoulder Dress<br>MRP-6789</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd7.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>AJIO Elastic Waist Textured Skirt<br>MRP-6700</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd8.jpg"></td></tr>
+<tr><td height="40"><h3><center><b> Plaid Bodycon Cami Dress<br>MRP-7899</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd9.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>ISHIN  Double V-neck Rainbow Strap Cami Top<br>MRP-2999</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd10.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>INCENSE  Allover Figure Print Bodycon Cami Dress<br>MRP-8989</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd11.jpg"></td></tr>
+<tr><td height="40"><h3><center><b> AJIO Cut and Sew Sequin Pocket Tee<br>MRP-6800</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd12.jpg"></td></tr>
+<tr><td height="40"><h3><center><b> AJIO Cut and Sew Sequin Pocket Tee<br>MRP-6799</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd13.jpg"></td></tr>
+<tr><td height="40"><h3><center><b> SHY  Lettuce Edge Tie Dye Top<br>MRP-5999</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd14.jpg" height="430" width="300"></td></tr>
+<tr><td height="40"><h3><center><b>SHIEN Black Pencil  Party Dress<br>MRP-8989</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd15.jpg" height="430" width="300"></td></tr>
+<tr><td height="40"><h3><center><b>In The Fields Dress<br>MRP-3300</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd16.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>AJIO Sleeveless Shirt Dress with Spread Collar<br>MRP-8999</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd17.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>INCENSE Graphic Print Knit Trapeze Dress<br>MRP-6799</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd18.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>ISHIN Strappy High-Low Sheath Dress<br>MRP-5699</b></center></h3></td></tr></table></td>
+</tr>
+<tr>
+<td>
+<table>
+<tr><td><img src="images/wwd19.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>THE CHILDREN'S PLACE Girls Round Neck Lace Printed Dress<br>MRP-6999</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd20.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>VARANGA
+Womens Round Neck Printed Flared Dress
+<br>MRP-5899</b></center></h3></td></tr></table></td>
+<td>
+<table>
+<tr><td><img src="images/wwd21.jpg"></td></tr>
+<tr><td height="40"><h3><center><b>Womens Collared Neck Checks Shirt Dress<br>MRP-5699</b></center></h3></td></tr></table></td>
+</tr>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+</body>
+</html>
